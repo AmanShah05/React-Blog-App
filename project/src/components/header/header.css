@@ -1,0 +1,30 @@
+.header {
+    margin-top: 40px;
+    background-color: whitesmoke;
+  }
+  
+  .headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quintessential', cursive;
+    color: whitesmoke;
+  }
+  
+  .headerTitleSm {
+    position: absolute;
+    top: 33%;
+    font-size: 25px;
+  }
+  
+  .headerTitleLg {
+    position: absolute;
+    top: 33%;
+    font-size: 100px;
+  }
+  
+  .headerImg {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+  }

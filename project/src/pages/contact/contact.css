@@ -1,0 +1,65 @@
+.contactUs {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.span{
+    width: 600px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    color: black;
+}
+
+.contactUsForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactUsForm > label {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: -15px;
+    color: rgb(32, 109, 101);
+
+}
+
+.contactUsForm > input {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    width: 600px;
+    color: gray;
+    margin: 20px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.contactUsInput:focus {
+    outline: none;
+}
+  
+.contactUsButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(32, 109, 101);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contactUsButton:hover{
+    background-color: rgb(26, 90, 84);
+}
+
+.contactUsButton:disabled{
+    cursor: not-allowed;
+    background-color: coral;
+}
